@@ -6,7 +6,7 @@ Este é um aplicativo web interativo criado com [Streamlit](https://streamlit.io
 
 - **Upload de PDF:** Envie um documento PDF diretamente pela interface da barra lateral.
 - **Processamento Automático:** O documento é lido, dividido em partes menores (chunks) e indexado automaticamente em um banco de dados vetorial local (ChromaDB).
-- **Chatbot Inteligente:** Interaja com um assistente virtual baseado no modelo `gemini-pro` que responde às suas perguntas referenciando exclusivamente o conteúdo do PDF fornecido.
+- **Chatbot Inteligente:** Interaja com um assistente virtual baseado no modelo `gemini-flash` que responde às suas perguntas referenciando exclusivamente o conteúdo do PDF fornecido.
 - **Gerenciamento de Contexto:** Ao enviar um novo PDF, o contexto e o banco de dados do documento anterior são limpos para evitar cruzamento de informações.
 
 ## 📋 Pré-requisitos
